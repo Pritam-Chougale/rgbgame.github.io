@@ -1,0 +1,111 @@
+body{
+    background-color: #232323;
+    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', Verdana, sans-serif;
+}
+
+.square{
+    width: 30%;
+    background: purple;
+    padding-bottom: 30%;
+    float: left;
+    margin: 1.66%;
+    border-radius: 15%;
+    transition: background 0.5s;  /* transition delay for square background of 0.5 seconds*/
+    /*transition support for browers */
+    -webkit-transition: background 0.5s;
+    -webkit-transition: background 0.5s;
+    
+}
+
+.square:hover{
+    cursor: pointer;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 1), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#container{
+    max-width: 600px;
+    margin: 20px auto;
+    height: auto;
+}
+
+h1{
+    line-height: 1.2;
+    color: white;
+    font-weight: normal;
+    text-align: center;
+    background-color: steelblue;
+    margin: 0;
+    padding: 20px 0;
+    text-transform: uppercase;
+}
+h3{
+    color: white;
+    font-weight: normal;
+    text-align: center;
+    background-color: steelblue;
+    margin: 0;
+}
+
+h3 a{
+    color: white;
+    text-decoration: none;
+}
+
+h3 a:hover{
+    cursor: pointer;
+    color: skyblue;
+   
+}
+#colorDisplay{
+    font-size: 200%;
+}
+
+#stripe{
+    background-color: white;
+    height: 30px;
+    text-align: center;
+    color: black;
+}
+
+#howto{
+    background-color: white;
+    height: 30px;
+    text-align: center;
+    color: black;
+    margin-top: 450px;
+    outline: none;
+}
+
+#message{
+    display: inline-block;
+    width: 15%;
+}
+
+.selected{
+    color: white;
+    background-color: steelblue;
+}
+
+button{
+    border: none;
+    background: none;
+    text-transform: uppercase;
+    height: 100%;
+    font-weight: bold;
+    color: steelblue;
+    letter-spacing: 1px;
+    font-size: inherit;
+    transition: all 0.4s; /* all transitions should take 0.3 seconds*/
+    /*transition support for browers */
+    -webkit-transition: all 0.4s;
+    -webkit-transition: all 0.4s;
+    cursor: pointer;
+    outline: none;
+
+}
+
+button:hover{
+    color: white;
+    background-color: steelblue;
+}
